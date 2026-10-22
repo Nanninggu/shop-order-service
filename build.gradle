@@ -1,0 +1,11 @@
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version '3.5.0'
+}
+
+group = 'shop'
+version = '0.1.0'
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+}

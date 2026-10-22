@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: shop-order-service
+  description: 주문을 받는 서비스
+spec:
+  type: service
+  lifecycle: production
+  owner: guests
